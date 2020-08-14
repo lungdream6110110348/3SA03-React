@@ -1,12 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import WordCard from './WordCard';
 
+const word = "AABBCCDDEEFF";
 function App() {
   return (
-    <div className="App">
-      Hello world
+    <body><h1>Welcome to my Game!</h1>
+    <div>
+      <WordCard value={word}/>
     </div>
+    </body>
   );
 }
 
