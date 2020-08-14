@@ -1,12 +1,12 @@
 .card {
     display: inline-block;
     /* text-indent: -9999px; */
-    text-align: center;
     width: 6em;
     height: 4em;
-    font-size: 40px;
+    font-size: 30px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    margin: 2em;
+    margin: 2.2em;
+    text-align: center;
     font-style: bold;
     user-select: none;
  }
@@ -18,9 +18,10 @@
  }
 
  .rightAns {
-     color: green;
-     background: greenyellow;
-     font-size: 40px;
+     color: darkblue;
+     background: cornsilk;
+     text-align: center;
+     font-style: bold;
  }
 
  .blank{
@@ -31,4 +32,18 @@
  h1{ 
     text-align: center;
     font-size: 100px;
+    color:gold;
  }
+
+ h2{
+     text-align: center;
+     font-size: 45px;
+     color: antiquewhite;
+ }
+
+ body {
+    background-image: url('new.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+  background-size: cover;
+  }
